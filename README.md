@@ -9,4 +9,11 @@ Simple example to query Twitter and cache results in Redis.
 
 3. Ensure Redis is running (or available remotely).
 
+
+Before you run the below command, ensure that you have below packages installed
+
+```
+npm install twit
+```
+
 4. Run `node index.js query` (query is your search text).
